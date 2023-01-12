@@ -13,7 +13,6 @@ export default function Home() {
       <main className="chat-notification-content">
         <header>
           <HeaderBar></HeaderBar>
-
         </header>
       </main>
     </>
