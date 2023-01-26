@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import HeaderBar from '../components/HeaderBar'
+import HeaderVideo from '../components/HeaderVideo'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="chat-notification-content">
         <header>
           <HeaderBar></HeaderBar>
+          <HeaderVideo></HeaderVideo>
         </header>
       </main>
     </>
